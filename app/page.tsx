@@ -4,10 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="relative h-screen w-screen">
-      <div
-        className="flex h-full w-full items-center bg-cover bg-center"
-        style={{ backgroundImage: "url(/main-bg.webp)" }}
-      >
+      <div className="main-bg flex h-full w-full items-center bg-cover bg-center">
         <div className="mx-sm:items-center z-10 mr-10 flex max-w-[750px] flex-col gap-5 pb-56 pl-20 max-sm:w-full max-sm:gap-12 md:pb-20 md:pl-40">
           <h1 className="text-[50px] font-semibold text-white max-sm:text-4xl">
             همه چیز ممکن کن با

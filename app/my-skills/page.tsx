@@ -7,10 +7,7 @@ import Image from "next/image";
 import "swiper/css";
 const page = () => {
   return (
-    <div
-      className="flex h-screen w-screen items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url(/bg-2.jpg)" }}
-    >
+    <div className="bg-2 flex h-screen w-screen items-center justify-center bg-cover bg-center">
       <div className="flex max-w-[80%] flex-col items-center gap-20 text-center">
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-[50px] font-semibold text-white">

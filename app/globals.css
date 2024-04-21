@@ -20,3 +20,21 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+.bg-2 {
+  background-image: url("../public/bg-2.jpg");
+}
+.bg-3 {
+  background-image: url("../public/bg-3.jpg");
+}
+
+.atombg-camp {
+  background-image: url("../public/atombg-comp.webp");
+}
+
+.mountains {
+  background-image: url("../public/Mountains.jpg");
+}
+.main-bg {
+  background-image: url("../public/main-bg.webp");
+}
